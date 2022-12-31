@@ -1,0 +1,11 @@
+.brick-layout { 
+    width: 750px; 
+    height: 800px;
+}
+@media screen and (max-device-width: 640px){
+    .brick-layout{
+      visibility: hidden;
+      width: 0%; 
+      margin-right: 0%;
+    }
+}

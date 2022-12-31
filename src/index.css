@@ -1,0 +1,79 @@
+@import "./css-reset.css";
+
+:root {
+    --white-100: #FFFFFF;
+    --dark-900: #09090A;
+    --dark-600: #808e90;
+    --dark-800: #444c4d;
+    --blue-400: #0091ff;
+    --blue-white-100: #96e1ea;
+
+}
+
+
+body {
+    background: var(--dark-900);
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+
+
+*::-webkit-scrollbar {
+    width: 5px;
+    /* THIS WILL RESET THE DEFAULT SCORLLBAR STYLING */
+}
+
+
+*::-webkit-scrollbar:hover {
+    width: 2rem;
+    /* THIS WILL RESET THE DEFAULT SCORLLBAR STYLING */
+}
+
+
+/* TO STYLE THE SCROLLBAR TRACK */
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* THIS WILL SET THE COLOR OF THE SCROLLBAR TRACK */
+}
+
+/* TO STYLE THE SCROLLBAR THUMB */
+*::-webkit-scrollbar-thumb {
+    background-color: var(--blue-400);
+    border-radius: 10px;
+    height: 8px;
+}
+
+
+/* my own classes */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+

@@ -1,0 +1,23 @@
+.footer  {
+    background-color: var(--dark-800);
+    color: var(--white-100);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 55px;
+
+}
+
+.blur-circle-shape {
+    position: absolute;
+    top: -125px;
+    left: 60rem;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    background: var(--blue-400);
+    z-index: 0;
+    filter: blur(250px);
+}
