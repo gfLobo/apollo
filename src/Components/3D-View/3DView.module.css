@@ -6,5 +6,6 @@
 
     .Frame {
         visibility: hidden;
+        height: 0px;
     }
 }

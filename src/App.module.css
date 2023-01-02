@@ -11,12 +11,12 @@
     font-weight: bold;
 }
 
-.trd-title{
+.trd-title {
     text-align: end;
     margin-bottom: 2rem;
 }
 
-.T3Modules{
+.T3Modules {
     margin-bottom: 10rem;
 }
 
@@ -25,5 +25,9 @@
     .sec-title,
     .trd-title {
         font-size: x-large;
+    }
+
+    .trd-title {
+        visibility: hidden;
     }
 }
