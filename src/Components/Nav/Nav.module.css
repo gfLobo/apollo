@@ -64,6 +64,11 @@
 }
 
 
+.nav-container{
+    text-decoration: none;
+    color: var(--white-100);
+}
+
 
 @media screen and (max-width: 1000px) {
 

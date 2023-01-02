@@ -23,10 +23,10 @@ export default function Nav() {
         <nav className={`${styles.nav} flex align-items-center`}>
             <div className={styles["blur-circle-shape"]} />
 
-            <div className={` flex align-items-center`}>
+            <a className={`${styles["nav-container"]} flex align-items-center`} href="/">
                 <img title="Apollo Program Logo" alt="Apollo Program Logo" src="apolloProgram.png" className={styles["logo"]} />
                 <h1 className={styles["nav-title"]}>Apollo</h1>
-            </div>
+            </a>
             <ul >
                 {routes.map(({ name, route }) => {
                     return (
