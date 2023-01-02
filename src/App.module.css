@@ -20,7 +20,7 @@
     margin-bottom: 10rem;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
 
     .sec-title,
     .trd-title {

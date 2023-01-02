@@ -23,18 +23,18 @@ export default function Nav() {
         <nav className={`${styles.nav} flex align-items-center`}>
             <div className={styles["blur-circle-shape"]} />
 
-            <div className={`${styles["nav-container"]} flex align-items-center`}>
+            <div className={` flex align-items-center`}>
                 <img title="Apollo Program Logo" alt="Apollo Program Logo" src="apolloProgram.png" className={styles["logo"]} />
                 <h1 className={styles["nav-title"]}>Apollo</h1>
             </div>
-            <ul className={`${styles["navbar-nav"]}`}>
+            <ul >
                 {routes.map(({ name, route }) => {
                     return (
-                        <a href={route}>
-                            <li className={`${styles["nav-item"]} ${window.location.pathname == route ? styles.active : ""}`}>
-                                <Button theme={window.location.pathname == route ? "matrix" : "transparent"}>{name}</Button>
-                            </li>
-                        </a>
+                        <li className={`${styles["nav-item"]} ${window.location.pathname == route ? styles.active : ""}`}>
+                            <a href={route}>
+                                <Button  theme={window.location.pathname == route ? "matrix" : "transparent"}>{name}</Button>
+                            </a>
+                        </li>
                     )
                 })}
 
@@ -44,4 +44,3 @@ export default function Nav() {
         </nav>
     )
 }
-

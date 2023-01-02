@@ -1,6 +1,8 @@
 .button {
     padding: 14px 21px;
     border-radius: 16px;
+    color: var(--white-100);
+
 }
 
 .button:hover {
@@ -15,5 +17,4 @@
 }
 .button.transparent {
     background-color: transparent;
-    color: var(--white-100);
 }

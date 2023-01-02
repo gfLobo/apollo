@@ -14,7 +14,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
 import images from "../../Jsons/Images.json"
-import MasonryLayout from '../MasonryLayout/MasonryLayout';
+import MasonryLayoutV2 from '../MasonryLayout/MasonryLayoutV2';
 
 //Styles
 import styles from "./Timeline.module.css"
@@ -386,7 +386,7 @@ export default function TimelineX() {
                                                 <Typography sx={{ color: expanded === data.title ? "#0091ff" : "black", fontWeight: "bold" }} variant='body1'>Photos</Typography>
                                             </AccordionSummary>
                                             <AccordionDetails style={{ maxHeight: 400, overflowY: 'scroll' }}>
-                                                <MasonryLayout images={data.images} />
+                                                <MasonryLayoutV2 images={data.images} />
                                             </AccordionDetails>
                                         </Accordion>
                                         : <></>

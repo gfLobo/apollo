@@ -8,11 +8,10 @@ import Masonry from "react-masonry-css"
 import MasonryBox from './MasonryBox/MasonryBox';
 
 // MasonryLayout Component
-const MasonryLayout = ({ images }) => {
+const MasonryLayoutV2 = ({ images }) => {
   const breakpointColumnsObj = {
-    default: 3,
-    1000: 2,
-    600: 1,
+    default: 2,
+    1000: 1,
   };
 
   return (
@@ -21,7 +20,7 @@ const MasonryLayout = ({ images }) => {
         breakpointCols={breakpointColumnsObj}
         className={styles["my-masonry-grid"]}
         columnClassName={styles["my-masonry-grid_column"]}
-        
+        height={"100%"}
       >
         {images.map(item => (
           <MasonryBox
@@ -37,4 +36,4 @@ const MasonryLayout = ({ images }) => {
   )
 }
 
-export default MasonryLayout
+export default MasonryLayoutV2
