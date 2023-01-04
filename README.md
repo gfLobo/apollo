@@ -16,13 +16,13 @@
 Git clone
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/gfLobo/apollo.git
 ```
 
 Open the project
 
 ```bash
-  cd my-project
+  cd apollo
 ```
 
 Install all the dependencies (if you have some problems just type "--force" at the end)
