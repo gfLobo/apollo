@@ -27,10 +27,10 @@ export default function Nav() {
                 <img title="Apollo Program Logo" alt="Apollo Program Logo" src="apolloProgram.png" className={styles["logo"]} />
                 <h1 className={styles["nav-title"]}>Apollo</h1>
             </a>
-            <ul >
-                {routes.map(({ name, route }) => {
+            <ul style={{width:"100%"}}>
+                {routes.map(({ name, route }, idx) => {
                     return (
-                        <li className={`${styles["nav-item"]} ${window.location.pathname == route ? styles.active : ""}`}>
+                        <li key={idx} className={`${styles["nav-item"]} ${window.location.pathname == route ? styles.active : ""}`}>
                             <a href={route}>
                                 <Button  theme={window.location.pathname == route ? "matrix" : "transparent"}>{name}</Button>
                             </a>

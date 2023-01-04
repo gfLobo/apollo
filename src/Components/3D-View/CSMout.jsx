@@ -10,7 +10,7 @@ export default function CSMout() {
             src="https://3d-api.si.edu/voyager/3d_package:d8c6457e-4ebc-11ea-b77f-2e728ce88125"
             width="auto"
             height="450"
-            allow="xr; xr-spatial-tracking; fullscreen"
+            allowFullScreen
         />
     )
 }
