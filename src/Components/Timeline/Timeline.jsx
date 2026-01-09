@@ -41,7 +41,7 @@ export default function TimelineX() {
             "description": "President John F. Kennedy told Congress: “I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to the earth.”",
             "patch": "apolloProgram.png",
             "landing": false,
-            "video": "89wezjx11dQ",
+            "video": "GmN1wO_24Ao",
             "objects": [],
             "images": []
         },
@@ -331,7 +331,7 @@ export default function TimelineX() {
                                         <iframe
                                             width={"100%"}
                                             height={350}
-                                            src={`https://www.youtube.com/embed/${data.video}?si=iyFQqn65n8D7JGIh`}
+                                            src={`https://www.youtube.com/embed/${data.video}`}
                                             title={data.title}
                                             frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
