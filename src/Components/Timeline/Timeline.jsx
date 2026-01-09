@@ -331,7 +331,7 @@ export default function TimelineX() {
                                         <iframe
                                             width={"100%"}
                                             height={350}
-                                            src={`https://www.youtube.com/embed/${data.video}`}
+                                            src={`https://www.youtube.com/embed/${data.video}?si=iyFQqn65n8D7JGIh`}
                                             title={data.title}
                                             frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
